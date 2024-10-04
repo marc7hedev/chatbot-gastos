@@ -4,6 +4,8 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
+const { appendToSheet } = require('./utils');
+
 
 const flowPrincipal = addKeyword(['Gastos'])
     .addAnswer('Hola, bienvenido al flujo de *Gastos*')
@@ -23,9 +25,10 @@ const flowPrincipal = addKeyword(['Gastos'])
         }
     ).addAnswer('Gracias. Tus datos fueron registrados', null,
         async (ctx, ctxFn) => {
-            console.log(ctxFn.state.get("name"))
-            console.log(ctxFn.state.get("amount"))
-            console.log(ctxFn.state.get("category"))
+            const name = ctxFn.state.get("name");
+            const amount = ctxFn.state.get("amount");
+            const category = ctxFn.state.get("category");
+            await appendToSheet([[name, amount, category]]);
         }
     )
 

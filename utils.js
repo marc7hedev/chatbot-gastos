@@ -29,4 +29,21 @@ async function appendToSheet(values){
     }
 }
 
-module.exports = { appendToSheet };
+async function readSheet(range){
+    const sheets = google.sheets({
+        version: 'v4', auth});
+    
+    try{
+        const response = await sheets.spreadsheets.values.get({
+            spreadsheetId, range
+        });
+        const rows = response.data.values;
+        return rows;
+    } catch(error){
+        console.error('error', error);
+    }
+}
+
+
+
+module.exports = { appendToSheet, readSheet };

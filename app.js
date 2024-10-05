@@ -4,7 +4,15 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const { appendToSheet } = require('./utils');
+const { appendToSheet, readSheet } = require('./utils');
+
+const flowHistory = addKeyword(['Historial'])
+    .addAnswer('Este es el flujo de *Historial*', null,
+        async (ctx, ctxFn) => {
+            const response = await readSheet('Sheet1!A1:C10');
+            console.log(response);
+        }
+    )
 
 
 const flowPrincipal = addKeyword(['Gastos'])
@@ -37,7 +45,7 @@ const flowPrincipal = addKeyword(['Gastos'])
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal, flowHistory])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({

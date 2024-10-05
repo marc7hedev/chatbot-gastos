@@ -5,6 +5,7 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const { appendToSheet, readSheet } = require('./utils');
+const { chat } = require('./chatgpt');
 
 const flowHistory = addKeyword(['Historial'])
     .addAnswer('Este es el flujo de *Historial*', null,

@@ -1,4 +1,4 @@
-const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
+const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
@@ -6,6 +6,15 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const { appendToSheet, readSheet } = require('./utils');
 const { chat } = require('./chatgpt');
+
+const flowGPT = addKeyword(EVENTS.WELCOME)
+    .addAction(async (ctx, ctxFn) => {
+        const gastos = await readSheet('Sheet1!A1:C10');
+        const prompt = "Eres un asistente financiero y contable que tiene acceso a mis gastos. Te voy a consultar sobre eso.";
+        const text = ctx.body + "\n Mis gastos son: " + gastos;
+        const response = await chat(prompt, text);
+        await ctxFn.flowDynamic(response);
+    })
 
 const flowHistory = addKeyword(['Historial'])
     .addAnswer('Este es el flujo de *Historial*', null,
@@ -40,8 +49,6 @@ const flowPrincipal = addKeyword(['Gastos'])
             await appendToSheet([[name, amount, category]]);
         }
     )
-
-
 
 
 const main = async () => {

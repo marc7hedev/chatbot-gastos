@@ -2,158 +2,26 @@
   key: {
     remoteJid: '5214641409146@s.whatsapp.net',
     fromMe: false,
-    id: '792059C9D21F2DDC9B3330C571695F9C',
+    id: '79B510A707339C3EC6D6F588C1CB5CFC',
     participant: undefined
   },
-  messageTimestamp: 1728081614,
+  messageTimestamp: 1728093008,
   pushName: 'GABY RANGO.....',
   broadcast: false,
   message: Message {
-    conversation: 'Gastos',
+    conversation: 'Historial',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Gastos',
+  body: 'Historial',
   from: '5214641409146'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f49eea47-4761-4509-8336-2963a48f3807',
-  keyword: 'key_7cf3076c-3bd9-4893-b413-66220c7b4870',
-  answer: 'Hola, bienvenido al flujo de *Gastos*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'd8b862b9fbf3a385efff7b0400b20abd'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8f0d5bf0-e9e2-4ffc-9870-f71cc4cac6ef',
-  keyword: 'ans_f49eea47-4761-4509-8336-2963a48f3807',
-  answer: 'Nombre del gasto: ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '4a432df33bf250ce02410f7373314a38'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214641409146@s.whatsapp.net',
-    fromMe: false,
-    id: '1E3111E7E12901DF62F195B6B55B7000',
-    participant: undefined
-  },
-  messageTimestamp: 1728081618,
-  pushName: 'GABY RANGO.....',
-  broadcast: false,
-  message: Message {
-    conversation: 'Tacos',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Tacos',
-  from: '5214641409146'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_72745718-9352-4c13-bf2c-3f0768ab2b33',
-  keyword: 'ans_8f0d5bf0-e9e2-4ffc-9870-f71cc4cac6ef',
-  answer: 'Monto del gasto: ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'bfae9d50740eb03adabf3d66f3e9386b'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214641409146@s.whatsapp.net',
-    fromMe: false,
-    id: '21DB22DD63A40416894089C1EF6A9210',
-    participant: undefined
-  },
-  messageTimestamp: 1728081621,
-  pushName: 'GABY RANGO.....',
-  broadcast: false,
-  message: Message {
-    conversation: '400',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '400',
-  from: '5214641409146'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e29518e7-c5cb-4fbe-b5bc-c52501d941fc',
-  keyword: 'ans_72745718-9352-4c13-bf2c-3f0768ab2b33',
-  answer: 'Categoría del gasto: ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '5f26de73a1ad7647469b05cb6331bd87'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214641409146@s.whatsapp.net',
-    fromMe: false,
-    id: 'EBE4348612E434735EA84F5D66848B49',
-    participant: undefined
-  },
-  messageTimestamp: 1728081623,
-  pushName: 'GABY RANGO.....',
-  broadcast: false,
-  message: Message {
-    conversation: 'Comida',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Comida',
-  from: '5214641409146'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cb0bf02c-9dc0-4783-8290-1f5fe17b849a',
-  keyword: 'ans_e29518e7-c5cb-4fbe-b5bc-c52501d941fc',
-  answer: 'Gracias. Tus datos fueron registrados',
+  ref: 'ans_fa0f549f-c722-4480-bd85-f561efe654c8',
+  keyword: 'key_5e21aa5d-9370-41a4-a76a-ef1465f844ae',
+  answer: 'Este es el flujo de *Historial*',
   options: {
     media: null,
     buttons: [],
@@ -166,175 +34,125 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '76d09b314727ee2c575ed9aab84e27f9'
+  refSerialize: 'd1e9e179e5200c53fb02b56654dd4533'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5214641409146@s.whatsapp.net',
+    remoteJid: '5214641761617@s.whatsapp.net',
     fromMe: false,
-    id: '5CE449DD6D3B206B09C91E4033942D68',
+    id: '695E788CA3E31E90A600ABB7BEFC292A',
     participant: undefined
   },
-  messageTimestamp: 1728081877,
-  pushName: 'GABY RANGO.....',
+  messageTimestamp: 1728093536,
+  pushName: 'Saan GR',
   broadcast: false,
   message: Message {
-    conversation: 'Gastos',
+    conversation: 'Ay no me acuerdo hijo',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Gastos',
-  from: '5214641409146'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f49eea47-4761-4509-8336-2963a48f3807',
-  keyword: 'key_7cf3076c-3bd9-4893-b413-66220c7b4870',
-  answer: 'Hola, bienvenido al flujo de *Gastos*',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'd8b862b9fbf3a385efff7b0400b20abd'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8f0d5bf0-e9e2-4ffc-9870-f71cc4cac6ef',
-  keyword: 'ans_f49eea47-4761-4509-8336-2963a48f3807',
-  answer: 'Nombre del gasto: ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '4a432df33bf250ce02410f7373314a38'
+  body: 'Ay no me acuerdo hijo',
+  from: '5214641761617'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5214641409146@s.whatsapp.net',
+    remoteJid: '5214641761617@s.whatsapp.net',
     fromMe: false,
-    id: '07F9DCC71DD6AE0DAA2A5809D769F38D',
+    id: '266462BEA7C8A58020BF768E27B62C6E',
     participant: undefined
   },
-  messageTimestamp: 1728081895,
-  pushName: 'GABY RANGO.....',
+  messageTimestamp: 1728093542,
+  pushName: 'Saan GR',
   broadcast: false,
   message: Message {
-    conversation: 'Quesadillas',
+    conversation: 'Creo de huella',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Quesadillas',
-  from: '5214641409146'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_72745718-9352-4c13-bf2c-3f0768ab2b33',
-  keyword: 'ans_8f0d5bf0-e9e2-4ffc-9870-f71cc4cac6ef',
-  answer: 'Monto del gasto: ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'bfae9d50740eb03adabf3d66f3e9386b'
+  body: 'Creo de huella',
+  from: '5214641761617'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5214641409146@s.whatsapp.net',
+    remoteJid: '5214641761617@s.whatsapp.net',
     fromMe: false,
-    id: '8A4613F92DC2D5BBCB6B9522761224CC',
+    id: '3259FFA2E4CC5DE48D2CF5916C8BDA45',
     participant: undefined
   },
-  messageTimestamp: 1728081899,
-  pushName: 'GABY RANGO.....',
+  messageTimestamp: 1728093565,
+  pushName: 'Saan GR',
   broadcast: false,
   message: Message {
-    conversation: '140',
+    conversation: 'Mañana voy a ir para allá',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '140',
-  from: '5214641409146'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e29518e7-c5cb-4fbe-b5bc-c52501d941fc',
-  keyword: 'ans_72745718-9352-4c13-bf2c-3f0768ab2b33',
-  answer: 'Categoría del gasto: ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '5f26de73a1ad7647469b05cb6331bd87'
+  body: 'Mañana voy a ir para allá',
+  from: '5214641761617'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5214641409146@s.whatsapp.net',
+    remoteJid: '5214641761617@s.whatsapp.net',
     fromMe: false,
-    id: '9A775469E00ED86C77ADC1BC9FC44ABA',
+    id: '3AEA91B6740A1C0D295AEE83B71854C9',
     participant: undefined
   },
-  messageTimestamp: 1728081901,
-  pushName: 'GABY RANGO.....',
+  messageTimestamp: 1728093573,
+  pushName: 'Saan GR',
   broadcast: false,
   message: Message {
-    conversation: 'Comida',
+    conversation: 'Creo si era la huella',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Comida',
-  from: '5214641409146'
+  body: 'Creo si era la huella',
+  from: '5214641761617'
 }
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_cb0bf02c-9dc0-4783-8290-1f5fe17b849a',
-  keyword: 'ans_e29518e7-c5cb-4fbe-b5bc-c52501d941fc',
-  answer: 'Gracias. Tus datos fueron registrados',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214641761617@s.whatsapp.net',
+    fromMe: false,
+    id: 'CFC5F88D4863859EBF3AA33B320E2C42',
+    participant: undefined
   },
-  refSerialize: '76d09b314727ee2c575ed9aab84e27f9'
+  messageTimestamp: 1728093668,
+  pushName: 'Saan GR',
+  broadcast: false,
+  message: Message {
+    conversation: 'O haber fíjate si es 1993',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'O haber fíjate si es 1993',
+  from: '5214641761617'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214641761617@s.whatsapp.net',
+    fromMe: false,
+    id: '68CFD84EBA30128C1FCC1C8375E795D3',
+    participant: undefined
+  },
+  messageTimestamp: 1728093741,
+  pushName: 'Saan GR',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ok hijo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ok hijo',
+  from: '5214641761617'
 }
